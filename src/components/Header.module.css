@@ -2,10 +2,17 @@
     background: var(--gray-800);
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 80px;
     padding: 1.25rem 0;
+    gap: 0.875rem;
 }
 
 .header img {
     height: 2rem;
+}
+
+.header span {
+    font-weight: bold;
+    font-size: 1rem;
 }
